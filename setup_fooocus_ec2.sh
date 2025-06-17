@@ -14,9 +14,6 @@ python launch.py --exit
 
 echo "⬇️ Downloading models..."
 
-# Realistic Vision
-wget -O models/checkpoints/realisticVisionV60B1_v51HyperVAE.safetensors https://civitai.com/api/download/models/132713
-
 # SDXL 1.0 Realistic Female LoRA
 wget -O models/loras/sdxl1.0_realastic_female_lora.safetensors https://civitai.com/api/download/models/131511
 
